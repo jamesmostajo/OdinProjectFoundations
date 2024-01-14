@@ -1,7 +1,43 @@
+body{
+    background-color: blanchedalmond;
+}
+.main_title{
+    font-size: 80px;
+    color:rgb(255, 216, 107);
+    font-style: italic;
+    text-align: center;
+}
 header {
-    height: 520px;
-    width: 1020px;
-    background-color: rgb(70, 69, 69);
+    height: 95px;
+    width: 1700px;
+    background-color: rgba(0, 10, 148, 0.493);
     margin-left: auto;
     margin-right: auto;
+}
+
+main{
+    /* width: 1700px;
+    height: 600px; */
+    background-color:azure;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.map{
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 3px;
+}
+
+.ancestor .contents {
+    color:red;
+}
+
+.image{
+    width: 1000px;
+    height:auto;
 }
