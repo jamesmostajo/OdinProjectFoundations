@@ -40,13 +40,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: green; */
   width: 450px;
   height: 30px;
-}
-
-.right-navbar {
-  /* background-color: red; */
 }
 
 .apply-button {
@@ -166,17 +161,31 @@ blockquote {
 }
 
 footer {
-  background-color: red;
-  height: 384px;
-  width: auto;
+  background-image: url("footer.png");
+  position: relative;
+  height: 24rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.5rem;
+}
+
+.footer-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 2.5rem;
-}
-
-.footer-block {
   padding: 1rem;
   text-align: center;
+}
+
+.credits {
+  font-family: "Chivo";
+  font-size: small;
+  text-align: center;
+  padding: 24px;
+  bottom: 0;
 }
